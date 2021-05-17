@@ -1,0 +1,37 @@
+<body>
+  <div>
+  <main class="taxGrid" id="taxMain">
+    <div class="taxContainer">
+      <div class="currency">
+        <select name="currency" id="currency-one">
+          <i class="fas fa-arrow-down"></i>
+          <option value="AB">Alberta</option>
+          <option value="BC">British Columbia</option>
+          <option value="MB">Manitoba</option>
+          <option value="NB">New Brunswick</option>
+          <option value="NL">Newfoundland and Labrador</option>
+          <option value="NS">Nova Scotia</option>
+          <option value="NT">Northwest Territories</option>
+          <option value="NU">Nunavut</option>
+          <option value="ON">Ontario</option>
+          <option value="PE">Prince Edward Island</option>
+          <option value="QC">Quebec</option>
+          <option value="SK">Saskatchewan</option>
+          <option value="YT">Yukon</option>
+        </select>
+        <input class="taxArea" type="number" min="0" step="0.01" placeholder="Enter Price Here">
+        <span class="validity"></span>
+      </div>
+      <div class="swap-rate-container">
+        <button id="btn" class="btn taxColor">
+          Calculate
+        </button>
+        <div class="rate" id="rate"></div>
+      </div>
+      <div class="taxScreen taxScrn">
+      </div>
+  </main>
+</div>
+  <footer class="bottom">&copy;2021 Agile Development Team </footer>
+</body>
+
